@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5421A38B218CB0B200344488 /* categoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5421A38A218CB0B200344488 /* categoryModel.swift */; };
+		5421A38D218CB0F200344488 /* reminderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5421A38C218CB0F200344488 /* reminderModel.swift */; };
+		5421A38F218CB12A00344488 /* notificationFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5421A38E218CB12A00344488 /* notificationFile.swift */; };
+		54A23ED921876140003A2340 /* EachCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A23ED821876140003A2340 /* EachCategoryTableViewController.swift */; };
+		54D0160C21821C7A0067A18A /* AddCategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D0160B21821C7A0067A18A /* AddCategoryTableViewController.swift */; };
+		54FE8D7F2183793600331B6E /* SelectIconTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FE8D7E2183793600331B6E /* SelectIconTableViewController.swift */; };
+		F47646332185168900FEA85C /* newReminderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47646322185168900FEA85C /* newReminderTableViewController.swift */; };
+		F4B362A6218169100042DAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B362A5218169100042DAED /* AppDelegate.swift */; };
+		F4B362AB218169100042DAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B362A9218169100042DAED /* Main.storyboard */; };
+		F4B362AE218169100042DAED /* Li_Yuying_Reminder_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F4B362AC218169100042DAED /* Li_Yuying_Reminder_Assignment.xcdatamodeld */; };
+		F4B362B0218169140042DAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B362AF218169140042DAED /* Assets.xcassets */; };
+		F4B362B3218169140042DAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B362B1218169140042DAED /* LaunchScreen.storyboard */; };
+		F4B362BE218169140042DAED /* Li_Yuying_Reminder_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B362BD218169140042DAED /* Li_Yuying_Reminder_AssignmentTests.swift */; };
+		F4B362C9218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B362C8218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests.swift */; };
+		F4B362D7218169350042DAED /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B362D6218169350042DAED /* File.swift */; };
+		F4B362D921816C860042DAED /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B362D821816C860042DAED /* CategoryTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4B362BA218169140042DAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4B3629A218169100042DAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B362A1218169100042DAED;
+			remoteInfo = Li_Yuying_Reminder_Assignment;
+		};
+		F4B362C5218169140042DAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4B3629A218169100042DAED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B362A1218169100042DAED;
+			remoteInfo = Li_Yuying_Reminder_Assignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5421A38A218CB0B200344488 /* categoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryModel.swift; sourceTree = "<group>"; };
+		5421A38C218CB0F200344488 /* reminderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderModel.swift; sourceTree = "<group>"; };
+		5421A38E218CB12A00344488 /* notificationFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationFile.swift; sourceTree = "<group>"; };
+		54A23ED821876140003A2340 /* EachCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachCategoryTableViewController.swift; sourceTree = "<group>"; };
+		54D0160B21821C7A0067A18A /* AddCategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryTableViewController.swift; sourceTree = "<group>"; };
+		54FE8D7E2183793600331B6E /* SelectIconTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectIconTableViewController.swift; sourceTree = "<group>"; };
+		F47646322185168900FEA85C /* newReminderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newReminderTableViewController.swift; sourceTree = "<group>"; };
+		F4B362A2218169100042DAED /* Li_Yuying_Reminder_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Li_Yuying_Reminder_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B362A5218169100042DAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4B362AA218169100042DAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4B362AD218169100042DAED /* Li_Yuying_Reminder_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Li_Yuying_Reminder_Assignment.xcdatamodel; sourceTree = "<group>"; };
+		F4B362AF218169140042DAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4B362B2218169140042DAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4B362B4218169140042DAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B362B9218169140042DAED /* Li_Yuying_Reminder_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Li_Yuying_Reminder_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B362BD218169140042DAED /* Li_Yuying_Reminder_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Li_Yuying_Reminder_AssignmentTests.swift; sourceTree = "<group>"; };
+		F4B362BF218169140042DAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B362C4218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Li_Yuying_Reminder_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B362C8218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Li_Yuying_Reminder_AssignmentUITests.swift; sourceTree = "<group>"; };
+		F4B362CA218169140042DAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B362D6218169350042DAED /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		F4B362D821816C860042DAED /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4B3629F218169100042DAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B362B6218169140042DAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B362C1218169140042DAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4B36299218169100042DAED = {
+			isa = PBXGroup;
+			children = (
+				F4B362A4218169100042DAED /* Li_Yuying_Reminder_Assignment */,
+				F4B362BC218169140042DAED /* Li_Yuying_Reminder_AssignmentTests */,
+				F4B362C7218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests */,
+				F4B362A3218169100042DAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4B362A3218169100042DAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4B362A2218169100042DAED /* Li_Yuying_Reminder_Assignment.app */,
+				F4B362B9218169140042DAED /* Li_Yuying_Reminder_AssignmentTests.xctest */,
+				F4B362C4218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4B362A4218169100042DAED /* Li_Yuying_Reminder_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				F4B362A5218169100042DAED /* AppDelegate.swift */,
+				F4B362A9218169100042DAED /* Main.storyboard */,
+				F4F4330C2195200F00643375 /* Reminder ViewControllers */,
+				F4F4330B21951FF000643375 /* Category ViewControllers */,
+				F4F4330A21951F7100643375 /* Models */,
+				F4B362AF218169140042DAED /* Assets.xcassets */,
+				F4B362B1218169140042DAED /* LaunchScreen.storyboard */,
+				F4B362B4218169140042DAED /* Info.plist */,
+				F4B362AC218169100042DAED /* Li_Yuying_Reminder_Assignment.xcdatamodeld */,
+			);
+			path = Li_Yuying_Reminder_Assignment;
+			sourceTree = "<group>";
+		};
+		F4B362BC218169140042DAED /* Li_Yuying_Reminder_AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4B362BD218169140042DAED /* Li_Yuying_Reminder_AssignmentTests.swift */,
+				F4B362BF218169140042DAED /* Info.plist */,
+			);
+			path = Li_Yuying_Reminder_AssignmentTests;
+			sourceTree = "<group>";
+		};
+		F4B362C7218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4B362C8218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests.swift */,
+				F4B362CA218169140042DAED /* Info.plist */,
+			);
+			path = Li_Yuying_Reminder_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+		F4F4330A21951F7100643375 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4B362D6218169350042DAED /* File.swift */,
+				5421A38E218CB12A00344488 /* notificationFile.swift */,
+				5421A38C218CB0F200344488 /* reminderModel.swift */,
+				5421A38A218CB0B200344488 /* categoryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4F4330B21951FF000643375 /* Category ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				54FE8D7E2183793600331B6E /* SelectIconTableViewController.swift */,
+				54D0160B21821C7A0067A18A /* AddCategoryTableViewController.swift */,
+				F4B362D821816C860042DAED /* CategoryTableViewController.swift */,
+			);
+			path = "Category ViewControllers";
+			sourceTree = "<group>";
+		};
+		F4F4330C2195200F00643375 /* Reminder ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				54A23ED821876140003A2340 /* EachCategoryTableViewController.swift */,
+				F47646322185168900FEA85C /* newReminderTableViewController.swift */,
+			);
+			path = "Reminder ViewControllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4B362A1218169100042DAED /* Li_Yuying_Reminder_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B362CD218169140042DAED /* Build configuration list for PBXNativeTarget "Li_Yuying_Reminder_Assignment" */;
+			buildPhases = (
+				F4B3629E218169100042DAED /* Sources */,
+				F4B3629F218169100042DAED /* Frameworks */,
+				F4B362A0218169100042DAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Li_Yuying_Reminder_Assignment;
+			productName = Li_Yuying_Reminder_Assignment;
+			productReference = F4B362A2218169100042DAED /* Li_Yuying_Reminder_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4B362B8218169140042DAED /* Li_Yuying_Reminder_AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B362D0218169140042DAED /* Build configuration list for PBXNativeTarget "Li_Yuying_Reminder_AssignmentTests" */;
+			buildPhases = (
+				F4B362B5218169140042DAED /* Sources */,
+				F4B362B6218169140042DAED /* Frameworks */,
+				F4B362B7218169140042DAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B362BB218169140042DAED /* PBXTargetDependency */,
+			);
+			name = Li_Yuying_Reminder_AssignmentTests;
+			productName = Li_Yuying_Reminder_AssignmentTests;
+			productReference = F4B362B9218169140042DAED /* Li_Yuying_Reminder_AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4B362C3218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B362D3218169140042DAED /* Build configuration list for PBXNativeTarget "Li_Yuying_Reminder_AssignmentUITests" */;
+			buildPhases = (
+				F4B362C0218169140042DAED /* Sources */,
+				F4B362C1218169140042DAED /* Frameworks */,
+				F4B362C2218169140042DAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B362C6218169140042DAED /* PBXTargetDependency */,
+			);
+			name = Li_Yuying_Reminder_AssignmentUITests;
+			productName = Li_Yuying_Reminder_AssignmentUITests;
+			productReference = F4B362C4218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4B3629A218169100042DAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Home;
+				TargetAttributes = {
+					F4B362A1218169100042DAED = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F4B362B8218169140042DAED = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F4B362A1218169100042DAED;
+					};
+					F4B362C3218169140042DAED = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F4B362A1218169100042DAED;
+					};
+				};
+			};
+			buildConfigurationList = F4B3629D218169100042DAED /* Build configuration list for PBXProject "Li_Yuying_Reminder_Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4B36299218169100042DAED;
+			productRefGroup = F4B362A3218169100042DAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B362A1218169100042DAED /* Li_Yuying_Reminder_Assignment */,
+				F4B362B8218169140042DAED /* Li_Yuying_Reminder_AssignmentTests */,
+				F4B362C3218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4B362A0218169100042DAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B362B3218169140042DAED /* LaunchScreen.storyboard in Resources */,
+				F4B362B0218169140042DAED /* Assets.xcassets in Resources */,
+				F4B362AB218169100042DAED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B362B7218169140042DAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B362C2218169140042DAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4B3629E218169100042DAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FE8D7F2183793600331B6E /* SelectIconTableViewController.swift in Sources */,
+				F4B362A6218169100042DAED /* AppDelegate.swift in Sources */,
+				F4B362D7218169350042DAED /* File.swift in Sources */,
+				5421A38D218CB0F200344488 /* reminderModel.swift in Sources */,
+				54D0160C21821C7A0067A18A /* AddCategoryTableViewController.swift in Sources */,
+				F47646332185168900FEA85C /* newReminderTableViewController.swift in Sources */,
+				5421A38B218CB0B200344488 /* categoryModel.swift in Sources */,
+				F4B362AE218169100042DAED /* Li_Yuying_Reminder_Assignment.xcdatamodeld in Sources */,
+				54A23ED921876140003A2340 /* EachCategoryTableViewController.swift in Sources */,
+				F4B362D921816C860042DAED /* CategoryTableViewController.swift in Sources */,
+				5421A38F218CB12A00344488 /* notificationFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B362B5218169140042DAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B362BE218169140042DAED /* Li_Yuying_Reminder_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B362C0218169140042DAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B362C9218169140042DAED /* Li_Yuying_Reminder_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4B362BB218169140042DAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B362A1218169100042DAED /* Li_Yuying_Reminder_Assignment */;
+			targetProxy = F4B362BA218169140042DAED /* PBXContainerItemProxy */;
+		};
+		F4B362C6218169140042DAED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B362A1218169100042DAED /* Li_Yuying_Reminder_Assignment */;
+			targetProxy = F4B362C5218169140042DAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4B362A9218169100042DAED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B362AA218169100042DAED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4B362B1218169140042DAED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4B362B2218169140042DAED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4B362CB218169140042DAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4B362CC218169140042DAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4B362CE218169140042DAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6M2236RAK;
+				INFOPLIST_FILE = Li_Yuying_Reminder_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "period3.Li-Yuying-Reminder-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4B362CF218169140042DAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6M2236RAK;
+				INFOPLIST_FILE = Li_Yuying_Reminder_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "period3.Li-Yuying-Reminder-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4B362D1218169140042DAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Li_Yuying_Reminder_AssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "period3.Li-Yuying-Reminder-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Li_Yuying_Reminder_Assignment.app/Li_Yuying_Reminder_Assignment";
+			};
+			name = Debug;
+		};
+		F4B362D2218169140042DAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Li_Yuying_Reminder_AssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "period3.Li-Yuying-Reminder-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Li_Yuying_Reminder_Assignment.app/Li_Yuying_Reminder_Assignment";
+			};
+			name = Release;
+		};
+		F4B362D4218169140042DAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Li_Yuying_Reminder_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "period3.Li-Yuying-Reminder-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Li_Yuying_Reminder_Assignment;
+			};
+			name = Debug;
+		};
+		F4B362D5218169140042DAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Li_Yuying_Reminder_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "period3.Li-Yuying-Reminder-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Li_Yuying_Reminder_Assignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4B3629D218169100042DAED /* Build configuration list for PBXProject "Li_Yuying_Reminder_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B362CB218169140042DAED /* Debug */,
+				F4B362CC218169140042DAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B362CD218169140042DAED /* Build configuration list for PBXNativeTarget "Li_Yuying_Reminder_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B362CE218169140042DAED /* Debug */,
+				F4B362CF218169140042DAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B362D0218169140042DAED /* Build configuration list for PBXNativeTarget "Li_Yuying_Reminder_AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B362D1218169140042DAED /* Debug */,
+				F4B362D2218169140042DAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B362D3218169140042DAED /* Build configuration list for PBXNativeTarget "Li_Yuying_Reminder_AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B362D4218169140042DAED /* Debug */,
+				F4B362D5218169140042DAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F4B362AC218169100042DAED /* Li_Yuying_Reminder_Assignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F4B362AD218169100042DAED /* Li_Yuying_Reminder_Assignment.xcdatamodel */,
+			);
+			currentVersion = F4B362AD218169100042DAED /* Li_Yuying_Reminder_Assignment.xcdatamodel */;
+			path = Li_Yuying_Reminder_Assignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F4B3629A218169100042DAED /* Project object */;
+}
